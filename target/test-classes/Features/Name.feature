@@ -12,4 +12,4 @@ Feature: I need to be able to add and remove contestants so I can log their resu
 
     Examples:
       | name | city   | country | gender | age |
-      | Lisa | Örebro | Sweden  | Boy    | 22  |
+      | Lisa | Orebro | Sweden  | Boy    | 22  |
