@@ -3,8 +3,8 @@ Feature: I need to be able to add and remove contestants so I can log their resu
   Scenario Outline: add a new contestant
 
     Given    I have entered "<name>"
-    Given    I have also entered "<city>"
-    Given    I have typed "<country>"
+    And    I have also entered "<city>"
+    And    I have typed "<country>"
     Given    I have written "<gender>"
     Given    I have added "<age>"
     When    I press enter
@@ -13,3 +13,4 @@ Feature: I need to be able to add and remove contestants so I can log their resu
     Examples:
       | name | city   | country | gender | age |
       | Lisa | Orebro | Sweden  | Boy    | 22  |
+      | Kalle | Orebro | Sweden  | Girl    | 22  |

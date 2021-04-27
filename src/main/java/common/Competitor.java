@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class Competitor {
 
-    Scanner sc = new Scanner(System.in);
+    public String outPutName(String userInput) {
 
-    String name = sc.nextLine();
-    System.out.println("Metod 1");
+        String tillbaka = "faskien";
 
+        System.out.println(tillbaka);
 
+        return tillbaka;
+    }
 }
