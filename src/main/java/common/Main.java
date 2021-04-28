@@ -10,14 +10,12 @@ public class Main {
         String firstName = scan.nextLine();
         System.out.println("Enter your last name");
         String lastName = scan.nextLine();
-        System.out.println("Enter country");
-        String country = scan.nextLine();
+        System.out.println("Enter personnummer");
+        int personnummer = scan.nextInt();
         System.out.println("Enter City");
         String city = scan.nextLine();
-        System.out.println("Enter your age");
-        int age = scan.nextInt();
-        System.out.print(firstName +"\t" + lastName +"\t" + country +"\t   " + city
-                +"\t"+ age);
+
+        System.out.print(firstName +"\t" + lastName +"\t" + personnummer +"\t   " + city);
 
 
 
