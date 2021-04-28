@@ -3,13 +3,19 @@ package common;
 import java.util.Scanner;
 
 public class Competitor {
+/*
+
 
     public String outPutName(String userInput) {
 
-        String tillbaka = "faskien";
+        String tillbaka = userInput;
 
         System.out.println(tillbaka);
 
         return tillbaka;
+
     }
-}
+ */
+
+    }
+
