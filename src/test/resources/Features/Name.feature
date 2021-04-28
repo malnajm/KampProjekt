@@ -4,13 +4,12 @@ Feature: I need to be able to add and remove contestants so I can log their resu
 
     Given    I have entered "<name>"
     And    I have also entered "<city>"
-    And    I have typed "<country>"
+    And    I have typed "<personnummer>"
     Given    I have written "<gender>"
-    Given    I have added "<age>"
     When    I press enter
     Then    they should be displayed on the screen
 
     Examples:
-      | name | city   | country | gender | age |
-      | Lisa | Orebro | Sweden  | Boy    | 22  |
-      | Kalle | Orebro | Sweden  | Girl    | 22  |
+      | name | city   | personnummer | gender |
+      | Lisa | Orebro | 9003205598  | Boy    |
+      | Kalle | Orebro | 9305608855  | Girl    |

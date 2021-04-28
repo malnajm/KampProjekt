@@ -22,7 +22,7 @@ public class StepDefintions {
     }
 
     @Given("I have typed {string}")
-    public void i_have_typed(String country) {
+    public void i_have_typed(String personnummer) {
 
     }
 
