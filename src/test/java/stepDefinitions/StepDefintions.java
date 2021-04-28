@@ -13,8 +13,7 @@ public class StepDefintions {
 
     @Given("I have entered {string}")
     public void i_have_entered(String name) {
-        String output = compName.outPutName(name);
-        Assert.assertEquals( "faskien", output);
+
     }
 
     @Given("I have also entered {string}")
