@@ -8,7 +8,6 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 public class StepDefintions {
-    private Competitor compName = new Competitor();
 
 
     @Given("I have entered {string}")
